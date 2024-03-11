@@ -14,34 +14,31 @@ const App = () => (
   <SafeAreaView style={styles.container}>
     <View>
       <Text style={styles.title}>
-        The title and onPress handler are required. It is recommended to set
-        accessibilityLabel to help make your app usable by everyone.
+        Imaan is my bestie
       </Text>
       <Button
-        title="Press me"
-        onPress={() => Alert.alert('Simple Button pressed')}
+        title="Imaan?"
+        onPress={() => Alert.alert('the best bestie')}
       />
     </View>
     <Separator />
     <View>
       <Text style={styles.title}>
-        Adjust the color in a way that looks standard on each platform. On iOS,
-        the color prop controls the color of the text. On Android, the color
-        adjusts the background color of the button.
+        Friendships with genuine women are the strongest bonds. Sisters who welcome you into their world no question asked Alhamdulillsh 
       </Text>
       <Button
-        title="Press me"
+        title="The Sisterhood"
         color="#f194ff"
-        onPress={() => Alert.alert('Button with adjusted color pressed')}
+        onPress={() => Alert.alert('Long Live the Sisterhood')}
       />
     </View>
     <Separator />
     <View>
       <Text style={styles.title}>
-        All interaction for the component are disabled.
+        This is not up for debate
       </Text>
       <Button
-        title="Press me"
+        title="At ALL"
         disabled
         onPress={() => Alert.alert('Cannot press this one')}
       />
@@ -49,16 +46,16 @@ const App = () => (
     <Separator />
     <View>
       <Text style={styles.title}>
-        This layout strategy lets the title define the width of the button.
+        Press Right button if you believe in the sister hood
       </Text>
       <View style={styles.fixToText}>
         <Button
           title="Left button"
-          onPress={() => Alert.alert('Left button pressed')}
+          onPress={() => Alert.alert('You bitch press on the right button ')}
         />
         <Button
           title="Right button"
-          onPress={() => Alert.alert('Right button pressed')}
+          onPress={() => Alert.alert('I am a believer')}
         />
       </View>
     </View>
